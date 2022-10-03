@@ -1,32 +1,38 @@
 header {
-    @include d-flex('around', '','');
+    @include d-flex('around', 'center','');
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 999;
     border-bottom: 2px solid transparent;
     box-shadow: 0 -2px 8px #fff;
-
+    background-color: #1a1a1a;
+    height: 10vh;
 
     nav {
         flex-basis: 40%;
+        @include d-flex('between', 'center', '');
+
 
         ul {
             @include d-flex('between', 'center', '');
+            width: 100%;
+            align-items: center;
 
             .active {
-                border-bottom: 2px solid red;
+                border-bottom: 3px solid red;
                 color: red;
             }
 
                 li {
                     a {
-                    color: #fff;
-                    padding-bottom: 4vh;
+                        color: #fff;
+                        padding-bottom: 4vh;
+                        cursor: pointer;
 
-                    &:hover{
-                        color: red;
-                        border-bottom: 2px solid red;
-                    }
+                        &:hover{
+                            color: red;
+                            border-bottom: 3px solid red;
+                        }
                 }
             }
         }

@@ -1,6 +1,5 @@
 
 .container {
-    min-height: 80vh;
     padding: 3rem 0;
     @include d-flex('', '', '');
 
@@ -11,16 +10,50 @@
         align-items: stretch;
 
         .card {
-            @extend .t-center;
-            @include d-flex('', '', '');
             flex-direction: column;
             width: calc(100% / 5 - 1rem);
-            height: 20vh;
-            padding: 3rem 1rem;
+            height: 40vh;
             margin-bottom: 2.5rem;
             border-radius: 10px;
             background-color: #fff;
             box-shadow: 0 0 5px #fff;
+            overflow-y: hidden;
+
+            .font-card {
+                padding: 1rem;
+            }
+            .back-card {
+                display: none;
+            }
+
+            .front-card,
+            .back-card {
+                height: 100%;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            &:hover {
+                animation: flip-horizontal 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                overflow-y: scroll;
+            }
+            &:hover .front-card {
+                transition: all 0.6s ease-in-out 0.1s;
+                display:none;
+            }
+            &:hover .back-card {
+
+                transition: all 0.6s ease-in-out 0.1s;
+                display: block;
+                animation: flip-horizontal 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            }
         }
     }
+}
+@keyframes flip-horizontal {
+    0% {transform: translateZ(0) rotateY(0);}
+    100% {transform: translateZ(160px) rotateY(-180deg);}
 }

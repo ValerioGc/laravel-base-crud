@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205a8904-a4fe-40ba-be17-5170a7eb0ead" name="Changes" comment="Aggiunta migrations">
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-base-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-base-crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/navLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navLinks.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2022_10_03_151957_create_comics_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_10_03_151957_create_comics_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_comics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_comics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -52,6 +66,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
@@ -112,35 +127,24 @@
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2Fd4Z2E2CvGusFrM81LTeUUD0nz" />
+  <component name="ProjectId" id="2FdQg78BVT9XlgUbm84BizZ67ZP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Valerio/Desktop/laravel-base-crud/resources/sass",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Valerio\Desktop\laravel-base-crud\resources\sass" />
-      <recent name="D:\Valerio\Desktop\laravel-base-crud\resources" />
-      <recent name="D:\Valerio\Desktop\laravel-base-crud\resources\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Valerio\Desktop\laravel-base-crud\resources\views\comicsPages" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -150,42 +154,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="205a8904-a4fe-40ba-be17-5170a7eb0ead" name="Changes" comment="" />
-      <created>1664808681878</created>
+      <changelist id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="" />
+      <created>1664819593088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664808681878</updated>
-      <workItem from="1664808684389" duration="5574000" />
+      <updated>1664819593088</updated>
+      <workItem from="1664819595148" duration="3396000" />
     </task>
-    <task id="LOCAL-00001" summary="Init">
-      <created>1664808851708</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1664808851708</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Avanzamento">
-      <created>1664813115742</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664813115742</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Avanzamento">
-      <created>1664813128871</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1664813128871</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Aggiunta migrations">
-      <created>1664815079215</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664815079215</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,11 +176,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init" />
-    <MESSAGE value="Avanzamento" />
-    <MESSAGE value="Aggiunta migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta migrations" />
   </component>
 </project>

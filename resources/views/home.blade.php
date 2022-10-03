@@ -4,6 +4,6 @@
 
 @section('content')
     <div class="home-container">
-        <h1>placeholder</h1>
+        <h1>Seleziona una categoria per vedere i fumetti</h1>
     </div>
 @endsection
