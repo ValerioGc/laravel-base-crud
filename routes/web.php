@@ -18,4 +18,3 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::resource('comics', 'ComicsController');
 
-Route::resource('new', 'NewComicsController');
