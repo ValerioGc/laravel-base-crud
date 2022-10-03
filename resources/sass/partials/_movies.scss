@@ -1,0 +1,26 @@
+
+.container {
+    min-height: 80vh;
+    padding: 3rem 0;
+    @include d-flex('', '', '');
+
+    .card-container {
+        width: 80%;
+        margin: auto;
+        @include d-flex('between', '', 'wrap');
+        align-items: stretch;
+
+        .card {
+            @extend .t-center;
+            @include d-flex('', '', '');
+            flex-direction: column;
+            width: calc(100% / 5 - 1rem);
+            height: 20vh;
+            padding: 3rem 1rem;
+            margin-bottom: 2.5rem;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 5px #fff;
+        }
+    }
+}

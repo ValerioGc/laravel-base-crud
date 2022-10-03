@@ -1,0 +1,32 @@
+.t-center {
+    text-align: center;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header,
+footer {
+    display:flex;
+    align-items:center;
+    height:10vh;
+    background-color: #1a1a1a;
+}
+
+main {
+    min-height: 80vh;
+    background-color: black;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg')
+}
+
+footer{
+    justify-content:center;
+    font-style: oblique;
+    color: #fff;
+}
+
+
+
+

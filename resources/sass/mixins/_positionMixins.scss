@@ -1,0 +1,24 @@
+@mixin d-flex ($justify, $align, $wrap) {
+
+    display: flex;
+
+    @if $wrap == 'wrap' {
+        flex-wrap: wrap;
+    }
+
+    @if $justify == 'around' {
+        justify-content: space-around;
+    } @else if $justify == 'between' {
+        justify-content: space-between;
+    } @else {
+        justify-content: center;
+    }
+
+    @if $align == 'start' {
+        align-content: start;
+    } @else if($align == 'end') {
+        align-content: end;
+    } @else {
+        align-content: center;
+    }
+}

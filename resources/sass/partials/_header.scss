@@ -1,0 +1,34 @@
+header {
+    @include d-flex('around', '','');
+    width: 100%;
+    position: sticky;
+    z-index: 999;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 -2px 8px #fff;
+
+
+    nav {
+        flex-basis: 40%;
+
+        ul {
+            @include d-flex('between', 'center', '');
+
+            .active {
+                border-bottom: 2px solid red;
+                color: red;
+            }
+
+                li {
+                    a {
+                    color: #fff;
+                    padding-bottom: 4vh;
+
+                    &:hover{
+                        color: red;
+                        border-bottom: 2px solid red;
+                    }
+                }
+            }
+        }
+    }
+}
