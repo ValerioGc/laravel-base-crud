@@ -3,11 +3,13 @@
 @section('page-title', 'laravel-comics')
 
 @section('content')
-    <div class="comics container">
-        <ul class="comics container">
+    <div class="container">
+        <ul class="card-container">
             @foreach($listComics as $comic)
-                <li>
-                    {{$comic}}
+                <li class="card">
+                    {{$comic['title']}}
+                    {{$comic['price']}}
+                    {{$comic['description']}}
                 </li>
             @endforeach
         </ul>

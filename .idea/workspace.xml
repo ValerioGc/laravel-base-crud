@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="205a8904-a4fe-40ba-be17-5170a7eb0ead" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/config/comics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/navLinks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/mixins/_positionMixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_movies.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_sendMovies.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
+    <list default="true" id="205a8904-a4fe-40ba-be17-5170a7eb0ead" name="Changes" comment="Avanzamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/navLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navLinks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_10_03_151957_create_comics_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_10_03_151957_create_comics_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_movies.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_comics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_sendMovies.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664808681878</updated>
-      <workItem from="1664808684389" duration="3446000" />
+      <workItem from="1664808684389" duration="5241000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1664808851708</created>
@@ -182,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664808851708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Avanzamento">
+      <created>1664813115742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664813115742</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Avanzamento">
+      <created>1664813128871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664813128871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Avanzamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avanzamento" />
   </component>
 </project>

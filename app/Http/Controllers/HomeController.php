@@ -9,6 +9,6 @@ class HomeController extends Controller
     public function index()
     {
         $navLinks = config('navLinks');
-        return view('home', ['links' => $navLinks]);
+        return view('home', compact( 'navLinks'));
     }
 }
