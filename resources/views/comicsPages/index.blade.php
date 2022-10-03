@@ -4,21 +4,29 @@
 
 @section('content')
     <div class="container">
-        <ul class="card-container">
-            @foreach($listComics as $comic)
-                <li class="card">
-                    <div class="front-card">
-                        <img src="{{$comic['thumb']}}" alt="Copertina {{$comic['title']}}">
-                    </div>
-                    <div class="back-card">
-                        <h3>{{$comic['title']}}</h3>
-                        <p><em>Serie:{{$comic['series']}}</em></p>
-                        <p><strong>Prezzo:</strong> {{$comic['price']}}</p>
-                        <p><strong>Data uscita:</strong>{{$comic['sale_date']}}</p>
-                        <p><strong>Descrizione:</strong>{{$comic['description']}}</p>
-                    </div>
-                </li>
-            @endforeach
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titolo</th>
+                    <th>Serie</th>
+                    <th>Data uscita</th>
+                    <th>Prezzo</th>
+                    <th>Opzioni:</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($listComics as $comic)
+                    <tr>
+                        <td>{{$comic['title']}}</td>
+                        <td>{{$comic['series']}}</td>
+                        <td> {{$comic['price']}}</td>
+                        <td>{{$comic['sale_date']}}</td>
+                        <td>
+
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
     </div>
 @endsection

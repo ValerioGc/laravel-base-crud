@@ -1,8 +1,6 @@
 <?php
 
 return [
-    'Home',
-    'Comics',
-    'New',
-    'Discount',
+    'home',
+    'comics',
 ];

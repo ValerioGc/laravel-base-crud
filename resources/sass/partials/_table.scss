@@ -1,0 +1,29 @@
+table {
+    color: #000000;
+    border-color: #ABABAB;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px -1px #212121;
+}
+th {
+    background-color: #adadad;
+    border-bottom: 1px solid #383838;
+}
+th:first-child{
+    border-top-left-radius: 5px;
+}
+th:last-child{
+    border-top-right-radius: 5px;
+}
+th,
+td {
+    padding: 15px 10px;
+}
+td {
+    background-color: #eae9e9;
+    border-bottom: 0.5px solid #383838;
+}
+td:not(:last-child){
+    border-right: 1px solid #383838;
+}
+
