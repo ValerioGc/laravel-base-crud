@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Creazione pagina Aggiungi">
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Merge new-comic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,7 @@
     <execution />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/pagina-edit" />
+    <option name="BRANCH" value="origin/page-new-comics" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -328,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664918412009</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge new-comic">
+      <created>1664919850151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664919850151</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +366,8 @@
     <MESSAGE value="Aggiunta funzione Delete Controller" />
     <MESSAGE value="Merge bottone delete" />
     <MESSAGE value="Creazione pagina Aggiungi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creazione pagina Aggiungi" />
+    <MESSAGE value="Merge new-comic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge new-comic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

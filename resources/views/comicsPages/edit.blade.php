@@ -25,7 +25,7 @@
             <input type="text" id="date" name="date" value="{{$comic->sale_date}}"/>
 
             <label for="type">Tipo</label>
-            <input type="text" id="type" name="type" />
+            <input type="text" id="type" name="type" value="{{$comic->type}}"/>
 
             <label for="description">Inserisci la Descrizione</label>
             <textarea name="description" id="description">

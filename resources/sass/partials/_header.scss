@@ -1,5 +1,6 @@
 header {
     @include d-flex('around', 'center','');
+    align-items: center;
     width: 100%;
     position: fixed;
     z-index: 999;
