@@ -18,8 +18,11 @@
             <label for="price">Prezzo</label>
             <input type="text" id="price" name="price" />
 
-            <label for="date">Inserisci la data</label>
-            <input type="text" id="date" name="date" />
+            <label for="sale_date">Inserisci la data</label>
+            <input type="text" id="sale_date" name="sale_date" />
+
+            <label for="type">Tipo</label>
+            <input type="text" id="type" name="type" />
 
             <label for="description">Inserisci la Descrizione</label>
             <textarea name="description" id="description"></textarea>
