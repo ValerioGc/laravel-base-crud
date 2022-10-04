@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container">
-        <form action="{{route('comics.update', ['comic' => $comic -> id])}}" method="POST">
+        <form class="form-edit" action="{{route('comics.update', ['comic' => $comic -> id])}}" method="POST">
 
             @csrf
             @method('PATCH')

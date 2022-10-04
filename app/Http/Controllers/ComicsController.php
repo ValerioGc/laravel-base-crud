@@ -102,7 +102,7 @@ class ComicsController extends Controller
 
             $comic->delete();
 
-            return redirect()->route('comics.index')->with('status', 'Elemento Cancellato');
+            return redirect()->route('comics.index');
 
         } else {
             abort(404);

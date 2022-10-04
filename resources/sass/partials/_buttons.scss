@@ -1,0 +1,24 @@
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: #636b6f;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.details {
+    background-color: blue;
+}
+
+.edit {
+    background-color: green!important;
+}
+
+.delete {
+    background-color: red;
+}

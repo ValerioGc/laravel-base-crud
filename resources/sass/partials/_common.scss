@@ -28,18 +28,3 @@ main {
     border: 2px solid #555555;
 }
 
-
-.btn {
-    padding: 5px 10px;
-    border: 1px solid black;
-    background-color: #636b6f;
-    color: white;
-    text-shadow: 1px 1px 5px black;
-
-    .edit {
-        background-color: green;
-    }
-    .delete {
-        background-color: red;
-    }
-}

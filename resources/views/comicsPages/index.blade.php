@@ -19,12 +19,12 @@
                     <tr>
                         <td>{{$comic['title']}}</td>
                         <td>{{$comic['series']}}</td>
-                        <td> {{$comic['price']}} $</td>
+                        <td>{{$comic['price']}} $</td>
                         <td>{{$comic['sale_date']}}</td>
                         <td>
-                            <a class="btn" href="{{route('comics.show', compact('comic'))}}">Dettagli</a>
+                            <a class="btn details" href="{{route('comics.show', compact('comic'))}}">Dettagli</a>
                             <a class="btn edit" href="{{route('comics.edit', compact('comic'))}}">Modifica</a>
-                            <form action="{{route('comic.destroy', compact($comic))}}">
+                            <form class="delete-form" action="{{route('comics.destroy', compact('comic'))}}" method="POST">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn delete">Cancella</button>
