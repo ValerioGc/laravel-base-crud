@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Revisione">
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comicsPages/delete.index.blade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" afterDir="false" />
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Revisione e Aggiunta tabella">
       <change beforePath="$PROJECT_DIR$/.idea/laravel-base-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-base-crud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewComicsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/navLinks.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navLinks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_comics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_comics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/navLinks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/delete.index.blade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664819593088</updated>
       <workItem from="1664819595148" duration="6722000" />
-      <workItem from="1664881319196" duration="1712000" />
+      <workItem from="1664881319196" duration="4633000" />
     </task>
     <task id="LOCAL-00001" summary="Fine Stilizzazione">
       <created>1664827051573</created>
@@ -227,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664830411832</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Revisione e Aggiunta tabella">
+      <created>1664892986912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664892986912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +254,19 @@
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
     <MESSAGE value="Fine Stilizzazione" />
     <MESSAGE value="Revisione" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisione" />
+    <MESSAGE value="Revisione e Aggiunta tabella" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisione e Aggiunta tabella" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ComicsController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

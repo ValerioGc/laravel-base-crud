@@ -6,10 +6,12 @@
         <ul>
             <li>
                 <a href="{{route('home')}}" class="navLink {{Request::route()->getName() == 'home' ? 'active':''}}">
-                    home
+                    Home
                 </a>
+            </li>
+            <li>
                 <a href="{{route('comics.index')}}" class="navLink {{Request::route()->getName() == 'comics' ? 'active':''}}">
-                    comics
+                    Comics
                 </a>
             </li>
         </ul>

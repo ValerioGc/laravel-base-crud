@@ -16,11 +16,9 @@ class ComicsController extends Controller
      */
     public function index()
     {
-        $navLinks = config('navLinks');
-
         $listComics = Comic::all();
 
-        return view('comicsPages.index', compact('listComics','navLinks'));
+        return view('comicsPages.index', compact('listComics'));
     }
 
     /**
@@ -52,7 +50,8 @@ class ComicsController extends Controller
      */
     public function show($id)
     {
-        //
+        $comic = Comic::findOrFail($id);
+        return view('comicsPages.show', compact('comic'));
     }
 
     /**

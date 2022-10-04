@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('page-title', 'laravel-comics')
+@section('page-title', 'Comics')
 
 @section('content')
     <div class="container">
@@ -11,7 +11,7 @@
                     <th>Serie</th>
                     <th>Data uscita</th>
                     <th>Prezzo</th>
-                    <th>Opzioni:</th>
+                    <th>Opzioni</th>
                 </tr>
             </thead>
             <tbody>
@@ -19,10 +19,10 @@
                     <tr>
                         <td>{{$comic['title']}}</td>
                         <td>{{$comic['series']}}</td>
-                        <td> {{$comic['price']}}</td>
+                        <td> {{$comic['price']}} $</td>
                         <td>{{$comic['sale_date']}}</td>
                         <td>
-
+                            <a class="btn" href="{{route('comics.show', compact('comic'))}}">Dettagli</a>
                         </td>
                     </tr>
                 @endforeach
