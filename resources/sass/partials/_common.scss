@@ -8,6 +8,7 @@ body {
 main {
     background-image: linear-gradient(to right top, #222222, #1d1d1d, #181818, #131313, #0c0c0c, #0c0c0c, #0c0c0c, #0c0c0c, #131313, #181818, #1d1d1d, #222222);
     padding-top: 8vh;
+    min-height: 100vh;
 }
 
 
@@ -33,4 +34,12 @@ main {
     border: 1px solid black;
     background-color: #636b6f;
     color: white;
+    text-shadow: 1px 1px 5px black;
+
+    .edit {
+        background-color: green;
+    }
+    .delete {
+        background-color: red;
+    }
 }
