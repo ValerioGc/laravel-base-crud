@@ -24,6 +24,11 @@
                         <td>
                             <a class="btn" href="{{route('comics.show', compact('comic'))}}">Dettagli</a>
                             <a class="btn edit" href="{{route('comics.edit', compact('comic'))}}">Modifica</a>
+                            <form action="{{route('comic.destroy', compact($comic))}}">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn delete">Cancella</button>
+                            </form>
                         </td>
                     </tr>
                 @endforeach

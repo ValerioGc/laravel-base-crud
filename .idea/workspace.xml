@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Fine stilizzazione form Edit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Merge branch">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +18,42 @@
     <option name="BRANCH" value="origin/pagina-edit" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="page-new" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="btn-delete" />
+                    <option name="lastUsedInstant" value="1664912677" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="page-new" />
+                    <option name="lastUsedInstant" value="1664912584" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1664912583" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -254,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664910391415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge branch">
+      <created>1664912561989</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664912561989</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +320,8 @@
     <MESSAGE value="Aggiunto show" />
     <MESSAGE value="Stilizzazione Pagina dettaglio" />
     <MESSAGE value="Fine stilizzazione form Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fine stilizzazione form Edit" />
+    <MESSAGE value="Merge branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
