@@ -23,7 +23,7 @@
                         <td>{{$comic['sale_date']}}</td>
                         <td>
                             <a class="btn" href="{{route('comics.show', compact('comic'))}}">Dettagli</a>
-                            <a class="btn" href="{{route('comics.edit', compact('comic'))}}">Modifica</a>
+                            <a class="btn edit" href="{{route('comics.edit', compact('comic'))}}">Modifica</a>
                         </td>
                     </tr>
                 @endforeach

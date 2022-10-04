@@ -1,0 +1,26 @@
+form {
+    width: 80%;
+    margin: auto;
+    background-color: #adadad;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    label {
+        padding-top: 1rem;
+    }
+
+    input {
+        padding: 1rem 0;
+        display: block;
+    }
+
+    #description {
+        display: block;
+    }
+
+    button {
+        margin: 1rem 0;
+        align-self: center;
+    }
+}
