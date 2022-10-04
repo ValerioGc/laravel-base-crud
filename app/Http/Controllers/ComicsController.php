@@ -98,6 +98,14 @@ class ComicsController extends Controller
     public function destroy(Comic $comic)
     {
 
+        if ($comic) {
 
+            $comic->delete();
+
+            return redirect()->route('comics.index')->with('status', 'Elemento Cancellato');
+
+        } else {
+            abort(404);
+        }
     }
 }
