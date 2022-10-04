@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Stilizzazione Pagina dettaglio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/partials/_comicsDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_comicsDetails.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
