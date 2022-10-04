@@ -1,7 +1,13 @@
 .comic {
+    width: 50%;
+    margin: auto;
+    background-color: #adadad;
+    padding: 1rem 10rem;
+    text-align: center;
 
     li {
         padding: 1rem 0;
+
         .info-comic {
             font-weight: bold;
         }

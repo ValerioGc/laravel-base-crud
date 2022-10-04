@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Aggiunto show">
-      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_comicsDetails.scss" afterDir="false" />
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Stilizzazione Pagina dettaglio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_comicsDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_comicsDetails.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664819593088</updated>
       <workItem from="1664819595148" duration="6722000" />
-      <workItem from="1664881319196" duration="4945000" />
+      <workItem from="1664881319196" duration="6531000" />
     </task>
     <task id="LOCAL-00001" summary="Fine Stilizzazione">
       <created>1664827051573</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664895934598</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Stilizzazione Pagina dettaglio">
+      <created>1664896242608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664896242608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,18 +265,8 @@
     <MESSAGE value="Revisione" />
     <MESSAGE value="Revisione e Aggiunta tabella" />
     <MESSAGE value="Aggiunto show" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto show" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/ComicsController.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Stilizzazione Pagina dettaglio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stilizzazione Pagina dettaglio" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
