@@ -14,6 +14,11 @@
                     Comics
                 </a>
             </li>
+            <li>
+                <a href="{{route('comics.create')}}" class="navLink {{Request::route()->getName() == 'comics' ? 'active':''}}">
+                    New Comic
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
