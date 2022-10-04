@@ -27,6 +27,7 @@
                             <form class="delete-form" action="{{route('comics.destroy', compact('comic'))}}" method="POST">
                                 @csrf
                                 @method('DELETE')
+
                                 <button type="submit" class="btn delete">Cancella</button>
                             </form>
                         </td>
