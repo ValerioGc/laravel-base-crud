@@ -1,12 +1,16 @@
 .form-edit {
     width: 90%;
-    margin: auto;
     background-color: #adadad;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     border-radius: 3px;
+    align-items: center;
 
+    div {
+        width: 55%;
+        margin: auto;
+    }
     label {
         padding: 1rem 0;
         font-weight: bold;
@@ -15,12 +19,16 @@
     input {
         padding: 1rem;
         display: block;
+
+        width: 100%;
     }
 
     #description {
         display: block;
         padding: 1rem;
         height: 8rem;
+        width: 100%;
+
     }
 
     button {
@@ -30,3 +38,7 @@
         border-radius: 5px;
     }
 }
+.delete-form {
+    display: inline-block;
+}
+

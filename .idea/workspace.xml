@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Aggiunta validazione">
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Revisione validazione">
+      <change afterPath="$PROJECT_DIR$/resources/lang/it/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/it/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/it/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/it/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/partials/_messages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,27 +174,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Valerio/Desktop/laravel-base-crud/resources/lang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Valerio\Desktop\laravel-base-crud\resources\lang" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -220,7 +236,7 @@
       <workItem from="1664819595148" duration="6722000" />
       <workItem from="1664881319196" duration="6531000" />
       <workItem from="1664955279072" duration="2000000" />
-      <workItem from="1664976796560" duration="4599000" />
+      <workItem from="1664976796560" duration="9722000" />
     </task>
     <task id="LOCAL-00001" summary="Fine Stilizzazione">
       <created>1664827051573</created>
@@ -355,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983353690</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Revisione validazione">
+      <created>1664984042455</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664984042455</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +412,8 @@
     <MESSAGE value="Merge new-comic" />
     <MESSAGE value="Revisione finale" />
     <MESSAGE value="Aggiunta validazione" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta validazione" />
+    <MESSAGE value="Revisione validazione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisione validazione" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

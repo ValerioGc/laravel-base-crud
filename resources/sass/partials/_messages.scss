@@ -1,0 +1,24 @@
+.message-error {
+    background-color: white;
+    padding: 15px;
+    top: 11%;
+    margin: auto;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    right: 0;
+    border-radius: 5px;
+    text-align: center;
+
+    ul {
+        li {
+            color: #6b0000;
+        }
+    }
+}
+
+.feedback-form {
+    font-weight: bold;
+    text-align: center;
+    color: #6b0000;
+    padding: 10px 0;
+}

@@ -9,19 +9,19 @@
     </head>
     <body>
 
-    @include('partials.header')
+        @include('partials.header')
 
-    <main>
-        @yield('content')
-        <div class="message-error">
+        <main>
             @if ($errors->any)
-                @foreach ($errors->all() as $error)
-                    {{$error}}
-                @endforeach
+                <div class="message-error">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{$error}}</li>
+                        @endforeach
+                    </ul>
+                </div>
             @endif
-        </div>
-    </main>
-
-
-</body>
+            @yield('content')
+        </main>
+    </body>
 </html>
