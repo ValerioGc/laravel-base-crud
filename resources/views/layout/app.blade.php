@@ -12,8 +12,18 @@
     @include('partials.header')
 
     <main>
+        <div class="message-error">
+            @if ($errors->any)
+                @foreach ($errors->all() as $error)
+                    {{$error}}
+                @endforeach
+            @endif
+        </div>
+
         @yield('content')
+
     </main>
+
 
 </body>
 </html>
