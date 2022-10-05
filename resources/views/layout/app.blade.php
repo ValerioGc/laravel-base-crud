@@ -12,6 +12,7 @@
     @include('partials.header')
 
     <main>
+        @yield('content')
         <div class="message-error">
             @if ($errors->any)
                 @foreach ($errors->all() as $error)
@@ -20,7 +21,6 @@
             @endif
         </div>
 
-        @yield('content')
 
     </main>
 

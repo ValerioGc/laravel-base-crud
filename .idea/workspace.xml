@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Revisione finale">
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Aggiunta validazione">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comicsPages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +221,7 @@
       <workItem from="1664819595148" duration="6722000" />
       <workItem from="1664881319196" duration="6531000" />
       <workItem from="1664955279072" duration="2000000" />
-      <workItem from="1664976796560" duration="3238000" />
+      <workItem from="1664976796560" duration="4155000" />
     </task>
     <task id="LOCAL-00001" summary="Fine Stilizzazione">
       <created>1664827051573</created>
@@ -346,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664920284860</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Aggiunta validazione">
+      <created>1664981860236</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664981860236</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +382,8 @@
     <MESSAGE value="Creazione pagina Aggiungi" />
     <MESSAGE value="Merge new-comic" />
     <MESSAGE value="Revisione finale" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisione finale" />
+    <MESSAGE value="Aggiunta validazione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta validazione" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
