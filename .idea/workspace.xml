@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Aggiunta pagina errore">
+    <list default="true" id="1ef9015b-7a51-4bf6-a464-86600289a6d2" name="Changes" comment="Traduzione lang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/it/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/it/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/it/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/it/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/it/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/it/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/it/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/it/validation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +228,7 @@
       <workItem from="1664819595148" duration="6722000" />
       <workItem from="1664881319196" duration="6531000" />
       <workItem from="1664955279072" duration="2000000" />
-      <workItem from="1664976796560" duration="11981000" />
+      <workItem from="1664976796560" duration="14183000" />
     </task>
     <task id="LOCAL-00001" summary="Fine Stilizzazione">
       <created>1664827051573</created>
@@ -387,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664998436490</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Traduzione lang">
+      <created>1664999971268</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664999971268</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +428,8 @@
     <MESSAGE value="Revisione validazione" />
     <MESSAGE value="Stilizzazione messaggi errore" />
     <MESSAGE value="Aggiunta pagina errore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta pagina errore" />
+    <MESSAGE value="Traduzione lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Traduzione lang" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
