@@ -20,8 +20,6 @@
                 @endforeach
             @endif
         </div>
-
-
     </main>
 
 
