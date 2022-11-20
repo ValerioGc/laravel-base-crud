@@ -1,78 +1,123 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# laravel-model-controller
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+> _Reproduction of a web-page that information about movies using Laravel and VueJs_
+ 
+<br />
 
-## About Laravel
+## *_Setup Project_*
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<table align="center">
+  <tbody>
+    <tr>
+        <td colspan="2" align="center">:arrow_down: Create and compile file .env</td>  
+    </tr>
+    <tr>
+        <td>:arrow_forward: NPM dependecies setup:</td>
+        <td><strong>npm install</strong></td>  
+    </tr>
+    <tr>
+        <td>:arrow_forward: Composer dependecies setup:</td>
+        <td><strong>composer install</strong></td>  
+    </tr>
+    <tr>
+        <td>:arrow_forward: Generate key:</td>
+        <td><strong>php artisan key:generate</strong></td>
+    </tr>      
+    <tr>
+        <td>:arrow_forward: Execute Migration:</td>
+        <td><strong>php artisan migrate</strong></td>
+    </tr>
+    <tr>
+        <td>:arrow_forward: Seed Database:</td>
+        <td><strong>php artisan db:seed</strong></td>
+    </tr>
+    <tr>
+        <td>:arrow_forward: Start developement server:</td>
+        <td><strong>php artisan serve</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br/>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## *_Development tools_*
 
-## Learning Laravel
+<table align="center">
+  <thead>
+    <tr>
+      <th colspan="4">Languages</th>
+      <th colspan="2">Framework</th>
+    </tr>
+  </thead>
+  <tbody align=center>
+    <tr>
+      <td>
+        <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/html.svg" width="36" height="36" alt="HTML5" />
+      </td>
+      <td>
+          <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/frameworks/sass.svg" width="36" height="36" align="center" alt="SASS" />
+      </td>
+      <td>
+        <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/javascript.svg" width="36" height="36" align="center" alt="Javascript">
+      </td>
+      <td>
+        <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/skills/php.svg" width="36" height="36" align="center" alt="php">
+      </td>
+      <td>
+        <img align="center" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" width="36" height="36" alt="Vue" />
+      </td>
+      <td>
+        <img align="center" src="https://github.com/ValerioGc/ValerioGc/blob/64e651615d68fb71ddfe78c747f2913d1ec29607/assets/skills&tools/frameworks/laravel.svg"width="36" height="36" alt="Laravel" /> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML</a>
+      </td>
+      <td>
+        <a href="https://sass-lang.com/documentation/">SASS</a>
+      </td>
+      <td>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a>
+      </td>
+      <td>
+        <a href="https://php.org">PHP</a>
+      </td>
+      <td> 
+        <a href="https://vuejs.org/" target="_blank" rel="noreferrer">Vue Js</a>
+      </td>
+      <td>
+        <a href="https://laravel.com/" target="_blank" rel="noreferrer">Laravel</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<br/>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## *_Previews:_*
 
-## Laravel Sponsors
+<div align="center">
+  <img align="center" src="/previews/crud.gif" alt="Gif crud " />
+  
+  <br/> &nbsp;
+  
+  <img align="center" src="/previews/crud-thumbs.png" alt="Thumbnails crud" />
+ <div>
+   
+--------
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+<details align="center">  
+  <summary><strong><ins> View Full size previews :arrow_heading_down: </summary></strong></ins>
+  
+  <br/>
 
-## Contributing
+  <img src="/previews/crud.png" alt="preview1" /> 
+  <img src="/previews/crud2.png" alt="preview2" /> 
+  <img src="/previews/crud3.png" alt="preview3" /> 
+  <img src="/previews/crud4.png" alt="preview4" /> 
+</details>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+--------
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
