@@ -1,6 +1,6 @@
-# laravel-model-controller
+# laravel-base-crud
 
-> _Reproduction of a web-page that information about movies using Laravel and VueJs_
+> _Reproduction of a web-page that display information about comics with CRUD_
  
 <br />
 
